@@ -1,0 +1,16 @@
+# fix broken pip with pip upgrade to version 10.
+
+pip install --upgrade pip==9.0.3 --user
+
+sudo apt-get install npm nodejs-legacy
+
+
+installation
+---------------
+python3 -m pip install jupyterhub
+npm install -g configurable-http-proxy
+python3 -m pip install notebook 
+
+--------------------------
+
+jupyterhub --generate-config
